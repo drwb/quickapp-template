@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: read
     env:
-      ZONE: ${{ vars.PARENT_DOMAIN }}
+      ZONE: ${{ secrets.PARENT_DOMAIN }}
       NAME: ${{ github.event.repository.name }}
     steps:
       - uses: actions/checkout@v4
