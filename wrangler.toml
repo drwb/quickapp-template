@@ -2,10 +2,9 @@ name = "PLACEHOLDER"
 main = "src/worker.js"
 compatibility_date = "2025-11-01"
 
-# routes block injected by scaffolder:
-# routes = [
-#   { pattern = "PLACEHOLDER.example.com", custom_domain = true }
-# ]
+# Custom domain is attached via CF API by the scaffolder (scripts/new-project.sh)
+# rather than wrangler's `routes` block, because wrangler sometimes hits
+# /zones/{zone}/workers/routes which needs an extra token scope.
 
 [assets]
 directory = "public"
