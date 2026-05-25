@@ -1,0 +1,17 @@
+name = "PLACEHOLDER"
+main = "src/worker.js"
+compatibility_date = "2025-11-01"
+
+[assets]
+directory = "public"
+
+# routes block injected by scaffolder:
+# routes = [
+#   { pattern = "PLACEHOLDER.example.com", custom_domain = true }
+# ]
+
+# Uncomment after `wrangler d1 create <name>`:
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "PLACEHOLDER"
+# database_id = "PLACEHOLDER"
