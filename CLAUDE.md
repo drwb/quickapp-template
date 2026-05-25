@@ -1,6 +1,6 @@
 # Project conventions
 
-This is a Cloudflare Worker + Static Assets app deployed to `<name>.example.com`.
+This is a Cloudflare Worker + Static Assets app deployed to `<name>.<your-domain>` (the parent domain is set as the `PARENT_DOMAIN` repo variable by the scaffolder).
 
 ## Stack
 - `hono` for routing in `src/worker.js`

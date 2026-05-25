@@ -1,6 +1,6 @@
 # PLACEHOLDER
 
-Cloudflare Worker + Static Assets, deployed to `PLACEHOLDER.example.com`.
+Cloudflare Worker + Static Assets, deployed to `PLACEHOLDER.<your-domain>`.
 
 ## Local dev
 ```
